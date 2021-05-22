@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.styles.css";
-import Profile from "../../assets/img/profile/profile.webp";
+import Profile from "../../assets/img/profile/profile2.webp";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
@@ -21,16 +21,16 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp; Krish Sapru </strong>
-                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
+                Hi there! I am <strong>&nbsp; Krish Sapru   </strong>
+                <br />I'm a junior studying Computer Science at Boston University, born and brought up in Dubai. I am a Full Stack Web Developer with React.js, Redux, Vue.js, Node.js, Express.js and mySQL as my tech stack.
                 <br />
-                In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.
+                As of 2021, I've attended three hackathons winning an award in one (BostonHacks).
                 <br />
-                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
+                My goals are always driven towards developing effecient code and learning new languages and technologies.
                 <br />
-                Along with that, I also help people as a COACH on their journey of becoming a professional programmer. 
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
-                <br /> <br />
+                I'm seeking an internship for the Fall 2021, Spring 2022 and/or Summer 2022 in the Software Engineering Field.
+                <br /> 
+                <br /> I'm an international student on an F-1 visa and will require sponsorship for an off-campus role. <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
@@ -40,7 +40,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1cBnYFD7dgabd4MktbjZkSIqAFUFMp5xx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>

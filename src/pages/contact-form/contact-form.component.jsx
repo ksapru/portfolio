@@ -1,4 +1,3 @@
-
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
@@ -15,13 +14,13 @@ const ContactForm = () => {
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
               <a href="mailto:ksapru@bu.edu" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-danger" title="akjha96@gmail.com">
+                <Button variant="outline-danger" title="ksapru@bu.edu">
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
               </a>
             </div>
             <div className="m-2">
-              <a href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/krish-sapru-189291178/" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-primary" title="Visit my LinkenIn">
                   <i className="fab fa-linkedin"></i> LinkedIn
                 </Button>
@@ -35,7 +34,13 @@ const ContactForm = () => {
                 </Button>
               </a>
             </div>
-             
+            <div className="m-2">
+              <a href="https://www.youtube.com/user/krishsapru/" target="_blank" rel="noopener noreferrer">
+                <Button id="youtube-btn" variant="outline-info" title="Lets code together!">
+                <i class="fab fa-youtube"></i> Youtube
+                </Button>
+              </a>
+            </div>
             <div className="m-2">
               <a href="https://twitter.com/krishsapru" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-info" title="Tweets are welcomed!">
@@ -43,7 +48,13 @@ const ContactForm = () => {
                 </Button>
               </a>
             </div>
-            
+            <div className="m-2">
+              <a href="https://www.instagram.com/krishsapru" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-secondary" title="Say hello on FB">
+                  <i className="fab fa-instagram-square"></i> Instagram
+                </Button>
+              </a>
+            </div>
           </Col>
         </Row>
       </Jumbotron>

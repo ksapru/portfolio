@@ -2,7 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
-import bu from "../../assets/img/experience/bu3.jpeg";
+import L_SPARK from "../../assets/img/experience/saprk.png";
+import Tilt from "react-tilt";
 import "./experience.styles.css";
 
 const Experience = () => {
@@ -11,30 +12,31 @@ const Experience = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
       <Jumbotron className="jumbo-style">
         <Container>
-             <Card>
+          <Tilt options={{ max: 25 }}>
+            <Card>
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                <Card.Img variant="top" className="img-resize" src={bu} alt="" />
+                <Card.Img variant="top" className="img-resize" src={L_SPARK} alt="Accenture logo" />
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">Associate Software Engineer</Card.Title>
+                  <Card.Title className="text-center">Software Engineering Intern</Card.Title>
                 </div>
                 <div>
                   <Card.Text className="text-center style">
-                    <strong className="body-title-style ">Information Technology & Security Intern</strong>
+                    <strong className="body-title-style ">Front End Developer</strong>
                     <br />
-                    <strong>Duration:</strong> June 2020 - Present
+                    <strong>Technology:</strong> Vue JS, Vuetify, Firebase, Material UI, React
+                    <br />
+                    <strong>Duration:</strong> February 2021 - Present
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
-                      <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
-                      <li><strong>Developed</strong> automation system to create SQL bulk query scripts that 
-                        increased efficiency by 80% and decreased working hours from 4 hours to 30 mins per task.
+                      <li><strong>Developed &amp; enhanced</strong> the user authentication portal through the Vuetify library</li>
+                      <li><strong>Assisted</strong> in the developement of the login flow and firebase authentication
                       </li>
-                      <li><strong>Provided</strong> application maintenance while working as `Production Support`. 
+                      <li><strong>Created</strong> pull requests, sovled merge conflicts and attended weekly meetings 
                       </li>
-                      <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according 
-                      to the business requirements.</li>
+                      <li><strong>Collaborated</strong> with UX designers and back-end web developers.</li>
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
 
                     </ul>
@@ -44,7 +46,8 @@ const Experience = () => {
                 </div>
               </Card.Body>
             </Card>
-         </Container>
+          </Tilt>
+        </Container>
       </Jumbotron>
     </div>
   );
